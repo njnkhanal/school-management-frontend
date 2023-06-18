@@ -1,0 +1,202 @@
+/******************* start header css *************************/
+.row {
+    width: 100%;
+}
+.header {
+    background-color: #202429;
+    padding: 5px 8px;
+}
+.header-top h1 {
+    color: white;
+    font-size: 500;
+    font-size: 28px;
+    float: right;
+}
+.header-icon .fa-bars {
+    color: white;
+    font-size: 27px;
+    margin-top: 5px;
+}
+.login-btn .button-links .lg-button {
+    border: none;
+    background-color: #87e0ec;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+.login-btn {
+    margin-top: 7px;
+    float: right;
+    margin-right: 20px;
+}
+.header-top {
+    margin-right: 10px;
+}
+/******************* side bar css *************************/
+.side-bar-section {
+    background-color: #2f3338;
+    padding: 10px 20px;
+}
+.image-boxing {
+    overflow: hidden;
+    position: relative;
+    top: 0%;
+    left: 20%;
+}
+.image-boxing img {
+    border-radius: 130px;
+    height: 130px;
+    width: 130px;
+}
+.name-of-user {
+    margin-left: 25px;
+    color: white;
+    font-weight: 600;
+}
+.naves {
+    list-style: none;
+    margin-top: 20px;
+}
+.nav-items {
+    padding: 15px 0px;
+}
+.side-bar-icon {
+    padding-right: 15px;
+}
+.nav-links {
+    color: white;
+    font-size: 18px;
+    font-weight: 500;
+}
+.nav-links:hover {
+    color: white;
+    text-decoration: none;
+}
+
+/******************* start footer css *************************/
+.footer-section {
+    background-color: #000000;
+    width: 100%;
+    margin-top: 40px;
+}
+.nav {
+    align-items: center;
+}
+
+.for-whatsapp {
+    padding: 10px;
+    background-color: #12b160;
+    border-radius: 50px;
+    color: white;
+    font-size: 20px;
+}
+.for-facebook {
+    padding: 10px;
+    background-color: #33578e;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+.for-instagram {
+    padding: 10px;
+    background-color: #0c4d7a;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+.for-twiter {
+    padding: 10px;
+    background-color: #4a9ddb;
+    border-radius: 50%;
+    color: white;
+    font-size: 20px;
+}
+.nav-item {
+    padding: 15px 10px;
+}
+.side-bar-listing {
+    padding: 15px;
+    background-color: #5aaaf7;
+    border-radius: 7px;
+}
+.for-student {
+    background-color: #37cbbf !important;
+}
+.for-teacher {
+    background-color: #ffc26c !important;
+}
+.for-students-fee {
+    background-color: #fb7e86 !important;
+}
+.content-title {
+    font-weight: 600;
+    color: white;
+}
+.number-of-post {
+    float: right;
+    color: white;
+    font-weight: 600;
+}
+.teacher-icon {
+    color: white;
+    font-weight: 600;
+}
+.pending-title {
+    font-weight: 500;
+    color: white;
+    text-align: center;
+}
+.pending-title span {
+    padding-left: 20px;
+}
+.content-section {
+    margin-top: 40px;
+    margin-bottom: 200px;
+}
+.content-footer-section {
+    background-color: #1590e9;
+    padding: 6px 0px;
+}
+.notice-tilte {
+    color: white;
+    font-weight: 600;
+    text-align: center;
+}
+
+/******************* for teacher **************/
+
+.teacher-icon-section {
+    margin-top: 20px;
+}
+.tech-icon {
+    font-size: 20px;
+    color: white;
+}
+.table-shape {
+    background-color: #3c84c3;
+    overflow: hidden;
+}
+.table-top-tilte {
+    font-weight: 600;
+    text-align: center;
+    padding: 7px;
+    color: white;
+}
+.bdr-area {
+    border: 1px solid rgb(194, 194, 194);
+    padding: 20px;
+}
+.attendence-plus {
+    color: #4484bc;
+    font-size: 18px;
+}
+.attendence-del {
+    color: #df6150;
+    font-size: 18px;
+}
+/*************************** for attendence  **********************/
+#menu_side {
+    cursor: pointer;
+}
+.sn-content.col-md-12 {
+    margin: 0 15px;
+}

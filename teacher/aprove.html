@@ -1,0 +1,158 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <title>School Management System</title>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <script src="https://use.fontawesome.com/releases/v6.1.0/js/all.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="../css/style.css">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+</head>
+
+<body>
+    <div class="header">
+        <div class="row">
+            <div class="col-md-3">
+                <div class="header-top">
+                    <h1>School Management</h1>
+                </div>
+            </div>
+            <div class="col-md-2">
+                <div class="header-icon" id="menu_side">
+                    <i class="fa-solid fa-bars"></i>
+                </div>
+            </div>
+            <div class="col-4"></div>
+            <div class="col-md-3">
+                <div class="login-btn">
+                    <a href="../#" class="button-links"><button class="lg-button">Login</button></a>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-3 col-12 sn-sidebar">
+            <div class="side-bar-section">
+                <div class="image-boxing">
+                    <img src="../login-image.jpg" width="100%" alt="">
+                    <h4 class="name-of-user">Nirajan</h4>
+                </div>
+                <ul class="naves">
+                    <li class="nav-items"><a href="../index.html" class="nav-links"><i
+                                class="fa-solid fa-display side-bar-icon"></i>Dashboard</a></li>
+                    <li class="nav-items"><a href="../teacher/index.html" class="nav-links"><i
+                                class="fa-solid fa-chalkboard-user side-bar-icon"></i>Teacher</a></li>
+                    <li class="nav-items"><a href="../student/index.html" class="nav-links"><i
+                                class="fa-solid fa-graduation-cap side-bar-icon"></i>Student</a></li>
+                    <li class="nav-items"><a href="../attendence/index.html" class="nav-links"><i
+                                class="fa-solid fa-clipboard-user side-bar-icon"></i>Attendence</a></li>
+                    <li class="nav-items"><a href="../fee/index.html" class="nav-links"><i
+                                class="fa-solid fa-magnifying-glass side-bar-icon"></i>Fee</a></li>
+                    <li class="nav-items"><a href="../#" class="nav-links"><i
+                                class="fa-solid fa-volume-high side-bar-icon"></i>Notice</a></li>
+                </ul>
+            </div>
+        </div>
+        <div class="col-md-9 col-12 sn-content">
+            <div class="content-section">
+
+
+
+
+
+            <div class="row pt-5">
+                <div class="col-md-12 col-12">
+                    <div class="table-shape">
+                        <h6 class="table-top-tilte">Teachers</h6>
+                    </div>
+                    <table class="table">
+                        <thead>
+                          <tr>
+                            <th scope="col">Name</th>
+                            <th scope="col">Mobile</th>
+                            <th scope="col">Salary</th>
+                            <th scope="col">Joining Date</th>
+                            <th scope="col">Approve</th>
+                            <th scope="col">Delete</th>
+                          </tr>
+                        </thead>
+                        <tbody>
+                          <tr>
+                            <th scope="row"></th>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                            <td></td>
+                          </tr>
+                        </tbody>
+                      </table>
+                </div>
+            </div>
+
+
+
+
+              </div>
+
+
+                <div class="footer-section">
+                    <div class="row">
+                        <div class="col-4"></div>
+                        <div class="col-md-4 col-12">
+                            <ul class="nav">
+                                <li class="nav-item"><a href="../" class="nav-link for-facebook"><i
+                                            class="fa-brands fa-facebook-f"></i></a></li>
+                                <li class="nav-item"><a href="../" class="nav-link for-whatsapp"><i
+                                            class="fa-brands fa-whatsapp"></i></a></li>
+                                <li class="nav-item"><a href="../" class="nav-link for-instagram"><i
+                                            class="fa-brands fa-instagram"></i></a></li>
+                                <li class="nav-item"><a href="../" class="nav-link for-twiter"><i
+                                            class="fa-brands fa-twitter"></i></a></li>
+                            </ul>
+                        </div>
+                        <div class="col-4"></div>
+
+                    </div>
+                </div>
+
+
+
+
+
+
+
+        </div>
+    </div>
+
+
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js"
+        integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous">
+    </script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+        integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous">
+    </script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+        integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous">
+    </script>
+<script>
+        $('#menu_side').click(function (e) {
+            e.preventDefault();
+            $('.sn-sidebar').toggle();
+            $('.sn-content').toggleClass('col-md-12');
+        });
+    </script>
+</body>
+</html>
